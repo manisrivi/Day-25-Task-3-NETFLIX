@@ -45,7 +45,7 @@ res.then((data) => data.json())
             let col = foo("div", "col-lg-3 col-sm-12 col-md-6")
             col.innerHTML = `<div class="card m-3 zoom shadow-lg " style="width: 18rem;">
        <img height="350" src="${country.image}" class="card-img-top" alt="...">
-                <a href="https://www.netflix.com/signup" class="btn btn-primary">DOWNLOAD</a>
+                <a href="" class="btn btn-primary">DOWNLOAD</a>
      </div>`
             row.append(col)
         })
